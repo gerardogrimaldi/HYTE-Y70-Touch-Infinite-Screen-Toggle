@@ -33,5 +33,5 @@ timeout /t 3 /nobreak >nul
 
 powershell -NoProfile -ExecutionPolicy Bypass -Command "Start-Service -Name 'HYTE.Nexus.Service' -ErrorAction SilentlyContinue"
 
-start "" "C:\Users\Milo\AppData\Local\Programs\HYTE Nexus\HYTE Nexus.exe"
+start "" "C:\Users\<user_name>\AppData\Local\Programs\HYTE Nexus\HYTE Nexus.exe"
 exit /b
