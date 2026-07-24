@@ -21,8 +21,7 @@ To ensure the script functions perfectly on your system, verify the following co
 
 1.  **Operating System:** Windows 11 (or Windows 10) configured with multiple monitors.
 2.  **Administrator Rights:** The script handles system-level background processes and services (`HYTE.Nexus.Service`), meaning it **automatically triggers a standard Windows UAC administrator prompt** when double-clicked.
-3.  **Default Installation Path:** The script relies on the official installation file paths. If you have modified your installation directory, adjust the path in the code accordingly:
-    `C:\Users\<YourUsername>\AppData\Local\Programs\HYTE Nexus\HYTE Nexus.exe`
+3.  **Default Installation Path:** The script checks for the existence of HYTE Nexus.exe in local app data, as well as program files. If your installation location is different, you'll need to update the script accordingly.
 
 ---
 
